@@ -1,9 +1,10 @@
 import requests
 import time
 import json
+import os
 from datetime import datetime
 
-TOKEN = "8573101517:AAEcr0TdueHQTXB8Kg7_yKdfIQuyUdpX8Vo"
+TOKEN = os.environ.get("BOT_TOKEN")
 CHAT_ID = 306895822
 
 URL = "https://www.cian.ru/cat.php?acontext=Новомосковский%7Cмой+адрес+на+клинской%7Cрумянцево-парк&currency=2&deal_type=sale&demolished_in_moscow_programm=0&district%5B0%5D=1&district%5B1%5D=5&district%5B2%5D=7&district%5B3%5D=9&district%5B4%5D=10&district%5B5%5D=11&electronic_trading=2&engine_version=2&flat_share=2&house_material%5B0%5D=1&house_material%5B1%5D=2&house_material%5B2%5D=4&house_material%5B3%5D=8&maxprice=26000000&maxtarea=80&min_house_year=2020&minprice=22000000&mintarea=72&object_type%5B0%5D=1&offer_type=flat&only_flat=1&repair%5B0%5D=1&room3=1"
