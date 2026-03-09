@@ -4,6 +4,8 @@ import json
 import os
 from datetime import datetime
 
+print("BOT STARTED")
+
 TOKEN = os.environ.get("BOT_TOKEN")
 CHAT_ID = 306895822
 
